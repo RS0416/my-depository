@@ -1,0 +1,21 @@
+print("what is your name?")
+name= input("your name:")
+print(name)
+print(f"nice to meet you {name}!")
+print("what is your age?")
+age=int(input("your age:"))
+print(f"I am {age} years old.")
+print("wow!")
+print("what is your favourite color?")
+color= input("fav color:")
+print(color)
+print("Nice to know that.")
+print("how are you feeling today?(good/bad)")
+feeling= input("good/bad:").lower()
+print(f"I am feeling {feeling} today.")
+if (feeling=="good"):
+    print("Thats good!.")
+elif(feeling=="bad"):
+    print("ooh!, hope you feel well soon!")
+else:
+    print("Its sometimes hard to tell your feelings.")
